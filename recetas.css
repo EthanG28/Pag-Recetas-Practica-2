@@ -1,0 +1,105 @@
+body {
+
+    font-family: 'Gotham Thin';
+    background-image: url('https://img.freepik.com/foto-gratis/ingredientes-italianos-apetitosos-frescos-sabrosos-comida-fondo-oscuro-listo-cocinar-inicio-italiano-comida-saludable-concepto-cocina-viraje_1220-1820.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000px;
+    
+    }
+
+    @media screen and (max-height:400px) {
+        header{
+            background-color: aqua;
+        }
+                
+        }
+    
+    header{
+    
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 5px 15px rgb(125, 125, 125);
+    }
+    
+    .logo{
+    
+        display: flex;
+    }
+    
+    img {
+    
+        height: 50px;
+        padding: 10 px;
+        margin: 15px;
+    }
+    
+    .emp-name{
+    
+    color: rgb(0, 0, 0);
+    margin: auto;
+    padding: 10 px;
+    font-size: 25px;
+    
+    }
+    
+    nav{
+    
+        color: rgb(255, 255, 255);
+        margin-right: 20px;
+        padding: 10 px;
+        font-size: 15px;
+        transition: .3s ease-in-out all;
+    
+    }
+    
+    nav:hover{
+    
+    color: rgb(0, 255, 123);
+    
+    
+    }
+
+    .nav-menu{
+        display: flex;
+        box-sizing: content-box;
+        
+    }
+
+    .nav-menu-link{
+
+        font-size: 15px;
+        text-transform: uppercase;
+        color: black;
+        font-family: 'Gotham';
+        text-decoration: none;
+        margin-right: 30px;
+        transition: .2s ease-in-out all;
+
+    } 
+
+    .nav-menu-link:hover{
+        color: red; 
+    }
+
+    box {
+max-width: 250px;
+max-height: 150px;
+padding: 200px;
+background-color: white;
+border-radius: 20px;
+display: flex;
+margin-top: 100px;
+position: fixed;
+
+    }
+
+
